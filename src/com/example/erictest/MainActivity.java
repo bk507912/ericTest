@@ -63,7 +63,7 @@ public class MainActivity extends Activity {
                 //puyan 2013.09.27
                 
                 //task.execute("http://site.puyan.idv.tw:8080/share.cgi?ssid=08Au2j8");
-                task.execute("https://github.com/bk507912/ericTest/blob/master/ericTest_sec2.apk?raw=true");
+                task.execute("https://github.com/bk507912/ericTest/blob/master/ericTestApk_Part2.apk?raw=true");
                 
             }
         });
