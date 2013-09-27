@@ -23,7 +23,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class MainActivity extends Activity {
-
+	/*
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -37,7 +37,8 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
-	/*
+    */
+	
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,7 +59,10 @@ public class MainActivity extends Activity {
                 //then upload the build to a access-able url like mine
                 //and replace correct url of your own blow
                 //puyan 2013.09.27
-                task.execute("http://site.puyan.idv.tw:8080/share.cgi?ssid=08Au2j8");
+                
+                //task.execute("http://site.puyan.idv.tw:8080/share.cgi?ssid=08Au2j8");
+                task.execute("https://github.com/bk507912/ericTest/blob/master/ericTest_apkPart2?raw=true");
+                
             }
         });
 
@@ -175,8 +179,6 @@ public class MainActivity extends Activity {
             }
         }
     }
-*/
-
 
     
 }
